@@ -15,6 +15,7 @@ router.get('/countries', getCountries);
 router.get('/countries/image', getSummaryImage);
 router.get('/countries/:name', getCountryByName);
 router.delete('/countries/:name', deleteCountryByName);
+router.get('/status', getStatus);
 
 
 export default router;
