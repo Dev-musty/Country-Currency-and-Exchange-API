@@ -1,3 +1,4 @@
+// for local connection
 {
   "sqltools.connections": [
     {
